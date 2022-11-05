@@ -5,7 +5,9 @@ class History {
   next;
   url;
   constructor(url) {
+    // Points to the previous node
     this.prev = null;
+    // Points to the next node
     this.next = null;
     this.url = url;
   }
